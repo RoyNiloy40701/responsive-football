@@ -1,103 +1,109 @@
-body{
+body {
      font-family: 'Poppins', sans-serif;
      margin: 0;
-     
+
 }
 
 
- /* ---Top Part style-- */
-.top-container{
-    display:flex;
-    background-color:rgb(45,37,160) ;
+/* ---Top Part style-- */
+.top-container {
+     display: flex;
+     background-color: rgb(45, 37, 160);
      margin-bottom: 70px;
 }
 
-.half-width-top{
-      width:60%
+.half-width-top {
+     width: 60%
+}
+
+.section-title {
+     padding: 160px 0px 240px 156px;
+}
+
+.section-title h1 {
+     color: #FFFFFF;
+     font-weight: 900;
+     font-size: 64px;
+     line-height: 80px;
+     margin-bottom: 27px;
+     margin-right: 100px;
 
 }
-.section-title{
-      padding:160px 0px 240px 156px;
-}
-.section-title h1{
-      color:  #FFFFFF;
-      font-weight: 900;
-      font-size: 64px;
-      line-height: 80px;   
-      margin-bottom:27px;
-      margin-right: 100px;
-    
-}
-.button{
+
+.button {
      background-color: #E02C6D;
      text-decoration: none;
      padding: 10px 24px;
-     color:white;
+     color: white;
      font-weight: 500;
      font-size: 16px;
-    
+
 }
 
-.arrow-icon{
+.arrow-icon {
      padding: 10px 8px;
 }
- 
-.top-banner img{
-      width:500px;
-      height: 450px; 
-      padding-top: 153px; 
-      margin-left: 35px;
-      transition: transform 4s;
-      
+
+.top-banner img {
+     width: 500px;
+     height: 450px;
+     padding-top: 153px;
+     margin-left: 35px;
+     transition: transform 4s;
+
 }
 
-.top-banner img:hover{
-      transform: scale(1.15);
-      padding-right: 10px;
-         
+.top-banner img:hover {
+     transform: scale(1.15);
+     padding-right: 10px;
+
 }
- /* ---End Top part Syle-- */
+
+/* ---End Top part Syle-- */
 
 
- /* ----Player info style--- */
-.football-players{
+/* ----Player info style--- */
+.football-players {
      display: grid;
-     grid-template-columns: repeat(3,1fr);
-     grid-column-gap:30px;
+     grid-template-columns: repeat(3, 1fr);
+     grid-column-gap: 30px;
      padding-left: 180px;
      padding-right: 210px;
-  
-}
-.player{
-     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-     align-items: center;
-     margin-bottom: 27px; 
-     
+
 }
 
-.player-img{
-   padding:15px 15px 0px 15px;
-   
+.player {
+     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+     align-items: center;
+     margin-bottom: 27px;
+
 }
-.player-info{
+
+.player-img {
+     padding: 15px 15px 0px 15px;
+
+}
+
+.player-info {
      padding: 15px 16px 33px 15px;
 }
 
-.player-name{
-      font-weight:900;
-      font-size: 28px;
-      margin: 0;
+.player-name {
+     font-weight: 900;
+     font-size: 28px;
+     margin: 0;
 }
 
-.player-bio{
-      font-size: 16px;
-      color: #6C6C6C;
+.player-bio {
+     font-size: 16px;
+     color: #6C6C6C;
 
 }
- /* --End footbal players style-- */
 
-  /* ---fixture style-- */
-.fixture-title{
+/* --End footbal players style-- */
+
+/* ---fixture style-- */
+.fixture-title {
      text-align: center;
      color: rgb(153, 27, 27);
      font-weight: 900;
@@ -106,78 +112,85 @@ body{
      font-size: 45px;
 }
 
-   
+
 .fixtures-container {
      display: flex;
      justify-content: center;
-   
+
 }
+
 .matchs {
      display: grid;
-     grid-template-columns: repeat(2,1fr);
+     grid-template-columns: repeat(2, 1fr);
      grid-column-gap: 30px;
      grid-row-gap: 27px;
      padding-left: 60px;
      margin-bottom: 70px;
 
- }
+}
 
 .match {
-    display:flex;
-    align-items: center;
-    box-shadow: 0px 0px 40px 0px #00000026;
-    transition: transform 2s;
-    border-radius: 20px;
+     display: flex;
+     align-items: center;
+     box-shadow: 0px 0px 40px 0px #00000026;
+     transition: transform 2s;
+     border-radius: 20px;
 }
-.team1{
-     
+
+.team1 {
+
      padding-right: 65px;
      margin-left: 20px;
-     margin-top:20PX;
+     margin-top: 20PX;
 
 }
-.fixture{
-     margin:0 20px;
+
+.fixture {
+     margin: 0 20px;
      text-align: center;
 }
-.team2{
+
+.team2 {
      padding-left: 65px;
      margin-right: 20px;
-     margin-top:20PX;
+     margin-top: 20PX;
 }
-.match:hover{
-     transform:scale(1.1);
+
+.match:hover {
+     transform: scale(1.1);
 }
+
 /* --End fixture style-- */
 
- /* ---standing-table style-- */
-    
-.standing-table{
-     box-shadow: 2px 2px 2px 2px  gray;
+/* ---standing-table style-- */
+
+.standing-table {
+     box-shadow: 2px 2px 2px 2px gray;
      margin: 100px 200px 40px 260px;
      padding-bottom: 20px;
      border-radius: 20px;
 }
- 
-.standing-table h1{
+
+.standing-table h1 {
      text-align: center;
-	color:black;
-	margin: 30px;
+     color: black;
+     margin: 30px;
      padding-top: 20px;
-     font-size:46px;
+     font-size: 46px;
 }
- 
-.standing-table table{
+
+.standing-table table {
      margin: 30px auto;
-	border-collapse: collapse;
-   
+     border-collapse: collapse;
+
 }
 
-.team-details:hover{
-	background-color: #81e046;
+.team-details:hover {
+     background-color: #81e046;
 }
 
-table th, td {
+table th,
+td {
      padding: 10px 40px;
 }
 
@@ -186,117 +199,122 @@ table th, td {
 
 
 
- /* --footer style-- */
+/* --footer style-- */
 
-.footer-container{
-     display:flex;
-     flex-direction: column; 
+.footer-container {
+     display: flex;
+     flex-direction: column;
      justify-content: center;
      align-items: center;
      padding: 158px 0px 0px 0px;
-   
+
 }
 
-.footer-icon{
-      padding: 20px  156px 5px 206px ;  
-      width: 180px;
-      font-size: 16px;
-      
+.footer-icon {
+     padding: 20px 156px 5px 206px;
+     width: 180px;
+     font-size: 16px;
+
 }
 
-.footer-icon i{
+.footer-icon i {
      background-color: rgb(209, 206, 206);
      border-radius: 25px;
-     padding:5px;
+     padding: 5px;
      margin-right: 14px;
 }
- 
-.footer-copyright{
+
+.footer-copyright {
      font-size: 18px;
      font-style: normal;
      font-weight: normal;
      margin-left: 25px;
-     margin-top: 0px;  
+     margin-top: 0px;
      font-size: 16px;
 }
 
 
 
- /* ---media query style-- */
+/* ---media query style-- */
 @media only screen and (max-width:689px) {
-     main{
-          width:115%;
-     }
-     .top-container{
-           display: flex;
-           flex-direction:column;
-      
+     main {
+          width: 115%;
      }
 
-     .half-width-top{
-          width:70%;
+     .top-container {
+          display: flex;
+          flex-direction: column;
+
      }
 
-     .section-title{
-           padding: 112px 66px 154px 16px;
+     .half-width-top {
+          width: 70%;
      }
-     .section-title h1{
-           font-size:36px;
-           font-weight: 900;
+
+     .section-title {
+          padding: 112px 66px 154px 16px;
      }
-     
-     
-     .top-banner img{
-          
-           width: 110%; 
-           margin-left: 16px;
-           padding-right: 0px;
-           padding-top: 0px;
-           
+
+     .section-title h1 {
+          font-size: 36px;
+          font-weight: 900;
      }
-     .football-players{
-          grid-template-columns: repeat(1,1fr);
+
+
+     .top-banner img {
+
+          width: 110%;
+          margin-left: 16px;
+          padding-right: 0px;
+          padding-top: 0px;
+
+     }
+
+     .football-players {
+          grid-template-columns: repeat(1, 1fr);
           padding: 47px 15px 24px 20px;
 
      }
-     .player{
+
+     .player {
           flex-direction: column;
-            width: 340px;
-            margin-left: 50px;
+          width: 340px;
+          margin-left: 50px;
      }
 
-     .matchs{
-          grid-template-columns: repeat(1,1fr);
+     .matchs {
+          grid-template-columns: repeat(1, 1fr);
           padding: 47px 15px 24px 15px;
      }
-     .match{
-         margin-left:10px
+
+     .match {
+          margin-left: 10px
      }
-     .team1{
+
+     .team1 {
           padding-right: 10px;
      }
-     .team2{
+
+     .team2 {
           padding-left: 10px;
      }
-   
-     .standing-table{
-         overflow: hidden;
-         overflow-x: scroll;
+
+     .standing-table {
+          overflow: hidden;
+          overflow-x: scroll;
           margin: 15px;
      }
-     
-   
-     .footer-container{
+
+
+     .footer-container {
           padding-top: 54px;
           padding-right: 30px;
      }
-     .footer-icon{
-          padding-left:40px;
+
+     .footer-icon {
+          padding-left: 40px;
           padding-right: 0px;
-          
+
      }
-   
- }
- 
-      
- 
+
+}
