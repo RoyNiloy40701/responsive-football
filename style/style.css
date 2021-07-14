@@ -28,8 +28,9 @@ body{
  }
  
  .top-banner img{
+    
       padding-top: 153px;
-      padding-right: 80px;
+      padding-right: 60px;
       padding-bottom: 86px;
       margin-left: 50px;
       
@@ -83,10 +84,42 @@ body{
 
  }
 
+ /* ---standing-table style-- */
+    
+ .standing-table{
+     box-shadow: 2px 2px 2px 2px  gray;
+     margin: 100px 200px 40px 240px;
+     padding-bottom: 20px;
+     border-radius: 20px;
+}
+ 
+.standing-table h1{
+     text-align: center;
+	color:black;
+	margin: 30px;
+     padding-top: 20px;
+     font-size:46px;
+}
+ 
+ .standing-table table{
+     margin: 30px auto;
+	border-collapse: collapse;
+   
+    }
+
+    th, td {
+     padding: 10px 40px;
+ }
+ .team-details:hover{
+	background-color: #81e046;
+}
+
+
+
  /* --footer style-- */
 
  .footer-container{
-      display:flex;
+     display:flex;
      flex-direction: column; 
      justify-content: center;
      align-items: center;
@@ -124,8 +157,9 @@ body{
       .top-container{
            display: flex;
            flex-direction:column;
-          
+      
       }
+
       .half-width-top{
           width:80%;
      }
@@ -138,7 +172,9 @@ body{
            font-weight: 900;
       }
      
+     
       .top-banner img{
+          
            width: 110%; 
            margin-left: 16px;
            padding-right: 0px;
@@ -148,17 +184,20 @@ body{
       .football-players{
           grid-template-columns: repeat(1,1fr);
           padding: 47px 15px 24px 15px;
-        
-         
+
       }
+
       .player{
           flex-direction: column;
+     }
+     .standing-table{
+          display: none;
      }
      .footer-container{
           padding-top: 54px;
           padding-right: 30px;
      }
-     
+   
  }
  
       
