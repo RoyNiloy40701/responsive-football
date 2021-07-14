@@ -236,9 +236,6 @@ table th,td {
 
 /* ---Start media query for mobile style-- */
 @media only screen and (max-width:689px) {
-     main {
-          width: 115%;
-     }
 
      .top-container {
           display: flex;
@@ -271,14 +268,14 @@ table th,td {
 
      .football-players {
           grid-template-columns: repeat(1, 1fr);
-          padding: 47px 15px 24px 20px;
+          padding: 47px 15px 24px 15px;
 
      }
 
      .player {
           flex-direction: column;
           width: 340px;
-          margin-left: 50px;
+          margin-left: 20px;
      }
 
      .matchs {
