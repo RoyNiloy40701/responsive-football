@@ -12,7 +12,7 @@ body{
  }
 
  .half-width-top{
-      width:50%;
+      width:60%
 
  }
  .section-title{
@@ -27,13 +27,20 @@ body{
     
  }
  
- .top-banner img{
-    
-      padding-top: 153px;
-      padding-right: 60px;
-      padding-bottom: 86px;
-      margin-left: 50px;
+    .top-banner img{
+      width:500px;
+      height: 400px;
+      padding-top: 153px; 
+      margin-left: 35px;
+      transition: transform 4s;
       
+ }
+ .top-banner img:hover{
+      transform: scale(1.15);
+      padding-right: 10px;
+      
+ 
+       
  }
 
  .button{
@@ -154,14 +161,17 @@ body{
 
  /* ---media query style-- */
  @media only screen and (max-width:689px) {
-      .top-container{
+     main{
+          width:115%;
+     }
+     .top-container{
            display: flex;
            flex-direction:column;
       
       }
 
       .half-width-top{
-          width:80%;
+          width:70%;
      }
 
       .section-title{
@@ -186,10 +196,12 @@ body{
           padding: 47px 15px 24px 15px;
 
       }
-
       .player{
           flex-direction: column;
+            width: 340px;
+            margin-left: 20px;
      }
+   
      .standing-table{
          overflow: hidden;
          overflow-x: scroll;
@@ -197,11 +209,16 @@ body{
      }
      
       table th, td {
-     padding: 10px 40px;
+       padding: 10px 40px;
       }
      .footer-container{
           padding-top: 54px;
           padding-right: 30px;
+     }
+     .footer-icon{
+          padding-left:40px;
+          padding-right: 0px;
+          
      }
    
  }
