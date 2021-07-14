@@ -1,0 +1,165 @@
+body{
+     font-family: 'Poppins', sans-serif;
+     margin: 0;
+     
+}
+
+ /* ---Top Part style-- */
+ .top-container{
+    display:flex;
+    background-color:rgb(45,37,160) ;
+     margin-bottom: 70px;
+ }
+
+ .half-width-top{
+      width:50%;
+
+ }
+ .section-title{
+      padding:160px 0px 240px 156px;
+ }
+ .section-title h1{
+      color:  #FFFFFF;
+      font-weight: 900;
+      font-size: 64px;
+      line-height: 80px;   
+      margin-bottom:27px;
+    
+ }
+ 
+ .top-banner img{
+      padding-top: 153px;
+      padding-right: 80px;
+      padding-bottom: 86px;
+      margin-left: 50px;
+      
+ }
+
+ .button{
+      background-color: #E02C6D;
+      text-decoration: none;
+      padding: 10px 24px;
+      color:white;
+      font-weight: 500;
+      font-size: 16px;
+     
+
+ }
+ .arrow-icon{
+      padding: 10px 8px;
+ }
+
+ /* ----Player info style--- */
+.football-players{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-column-gap:30px;
+     padding-left: 180px;
+     padding-right: 210px;
+  
+}
+.player{
+     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+     align-items: center;
+     margin-bottom: 27px; 
+     
+}
+
+.player-img{
+   padding:15px 15px 0px 15px;
+   
+ }
+ .player-info{
+     padding: 15px 16px 33px 15px;
+ }
+ .player-name{
+      font-weight:900;
+      font-size: 28px;
+      margin: 0;
+ }
+ .player-bio{
+      font-size: 16px;
+      color: #6C6C6C;
+
+ }
+
+ /* --footer style-- */
+
+ .footer-container{
+      display:flex;
+     flex-direction: column; 
+     justify-content: center;
+     align-items: center;
+     padding: 158px 0px 0px 0px;
+   
+ }
+
+ .footer-icon{
+      padding: 20px  156px 5px 206px ;  
+      width: 180px;
+      font-size: 16px;
+      
+ }
+
+ .footer-icon i{
+     background-color: rgb(209, 206, 206);
+     border-radius: 25px;
+     padding:5px;
+     margin-right: 14px;
+ }
+ 
+ .footer-copyright{
+     font-size: 18px;
+     font-style: normal;
+     font-weight: normal;
+     margin-left: 25px;
+     margin-top: 0px;  
+     font-size: 16px;
+ }
+
+
+
+ /* ---media query style-- */
+ @media only screen and (max-width:689px) {
+      .top-container{
+           display: flex;
+           flex-direction:column;
+          
+      }
+      .half-width-top{
+          width:80%;
+     }
+
+      .section-title{
+           padding: 112px 66px 154px 16px;
+      }
+      .section-title h1{
+           font-size:36px;
+           font-weight: 900;
+      }
+     
+      .top-banner img{
+           width: 110%; 
+           margin-left: 16px;
+           padding-right: 0px;
+           padding-top: 0px;
+           
+      }
+      .football-players{
+          grid-template-columns: repeat(1,1fr);
+          padding: 47px 15px 24px 15px;
+        
+         
+      }
+      .player{
+          flex-direction: column;
+     }
+     .footer-container{
+          padding-top: 54px;
+          padding-right: 30px;
+     }
+     
+ }
+ 
+      
+ 
