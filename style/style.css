@@ -107,7 +107,7 @@ body{
    
     }
 
-    th, td {
+   table th, td {
      padding: 10px 40px;
  }
  .team-details:hover{
@@ -191,8 +191,14 @@ body{
           flex-direction: column;
      }
      .standing-table{
-          display: none;
+         overflow: hidden;
+         overflow-x: scroll;
+          margin: 15px;
      }
+     
+      table th, td {
+     padding: 10px 40px;
+      }
      .footer-container{
           padding-top: 54px;
           padding-right: 30px;
