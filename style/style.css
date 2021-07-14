@@ -27,6 +27,12 @@ body {
      line-height: 80px;
      margin-bottom: 27px;
      margin-right: 100px;
+     transition: transform 2s;
+
+}
+.section-title h1:hover {
+     transform: scale(1.15);
+     padding-right: 10px;
 
 }
 
