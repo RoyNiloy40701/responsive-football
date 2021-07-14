@@ -189,8 +189,7 @@ body {
      background-color: #81e046;
 }
 
-table th,
-td {
+table th,td {
      padding: 10px 40px;
 }
 
@@ -235,7 +234,7 @@ td {
 
 
 
-/* ---media query style-- */
+/* ---Start media query for mobile style-- */
 @media only screen and (max-width:689px) {
      main {
           width: 115%;
@@ -318,3 +317,4 @@ td {
      }
 
 }
+/* ---End media query for mobile style-- */
