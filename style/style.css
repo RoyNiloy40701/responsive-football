@@ -24,12 +24,13 @@ body{
       font-size: 64px;
       line-height: 80px;   
       margin-bottom:27px;
+      margin-right: 100px;
     
  }
  
-    .top-banner img{
+ .top-banner img{
       width:500px;
-      height: 400px;
+      height: 400px; 
       padding-top: 153px; 
       margin-left: 35px;
       transition: transform 4s;
@@ -38,9 +39,7 @@ body{
  .top-banner img:hover{
       transform: scale(1.15);
       padding-right: 10px;
-      
- 
-       
+         
  }
 
  .button{
@@ -91,11 +90,65 @@ body{
 
  }
 
+  /* ---fixture style-- */
+.fixture-title{
+     text-align: center;
+     color: rgb(153, 27, 27);
+     font-weight: 900;
+     padding-top: 40px;
+     padding-bottom: 20px;
+     font-size: 45px;
+}
+
+   
+.fixtures-container {
+     display: flex;
+     justify-content: center;
+   
+ }
+ .matchs {
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-column-gap: 30px;
+     grid-row-gap: 27px;
+     padding-left: 60px;
+     margin-bottom: 70px;
+
+ }
+
+.match {
+    display:flex;
+    align-items: center;
+    box-shadow: 0px 0px 40px 0px #00000026;
+    transition: transform 2s;
+    border-radius: 20px;
+}
+.team1{
+     
+     padding-right: 65px;
+     margin-left: 20px;
+     margin-top:20PX;
+
+}
+.fixture{
+     margin:0 20px;
+     text-align: center;
+}
+.team2{
+     padding-left: 65px;
+     margin-right: 20px;
+     margin-top:20PX;
+}
+.match:hover{
+     transform:scale(1.1);
+}
+
+
  /* ---standing-table style-- */
     
  .standing-table{
      box-shadow: 2px 2px 2px 2px  gray;
-     margin: 100px 200px 40px 240px;
+     margin: 100px 200px 40px 260px;
      padding-bottom: 20px;
      border-radius: 20px;
 }
@@ -200,6 +253,20 @@ body{
           flex-direction: column;
             width: 340px;
             margin-left: 20px;
+     }
+
+     .matchs{
+          grid-template-columns: repeat(1,1fr);
+          padding: 47px 15px 24px 15px;
+     }
+     .match{
+         margin-left:10px
+     }
+     .team1{
+          padding-right: 10px;
+     }
+     .team2{
+          padding-left: 10px;
      }
    
      .standing-table{
