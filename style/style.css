@@ -4,21 +4,22 @@ body{
      
 }
 
+
  /* ---Top Part style-- */
- .top-container{
+.top-container{
     display:flex;
     background-color:rgb(45,37,160) ;
      margin-bottom: 70px;
- }
+}
 
- .half-width-top{
+.half-width-top{
       width:60%
 
- }
- .section-title{
+}
+.section-title{
       padding:160px 0px 240px 156px;
- }
- .section-title h1{
+}
+.section-title h1{
       color:  #FFFFFF;
       font-weight: 900;
       font-size: 64px;
@@ -26,35 +27,37 @@ body{
       margin-bottom:27px;
       margin-right: 100px;
     
- }
+}
+.button{
+     background-color: #E02C6D;
+     text-decoration: none;
+     padding: 10px 24px;
+     color:white;
+     font-weight: 500;
+     font-size: 16px;
+    
+}
+
+.arrow-icon{
+     padding: 10px 8px;
+}
  
- .top-banner img{
+.top-banner img{
       width:500px;
       height: 400px; 
       padding-top: 153px; 
       margin-left: 35px;
       transition: transform 4s;
       
- }
- .top-banner img:hover{
+}
+
+.top-banner img:hover{
       transform: scale(1.15);
       padding-right: 10px;
          
- }
+}
+ /* ---End Top part Syle-- */
 
- .button{
-      background-color: #E02C6D;
-      text-decoration: none;
-      padding: 10px 24px;
-      color:white;
-      font-weight: 500;
-      font-size: 16px;
-     
-
- }
- .arrow-icon{
-      padding: 10px 8px;
- }
 
  /* ----Player info style--- */
 .football-players{
@@ -75,20 +78,23 @@ body{
 .player-img{
    padding:15px 15px 0px 15px;
    
- }
- .player-info{
+}
+.player-info{
      padding: 15px 16px 33px 15px;
- }
- .player-name{
+}
+
+.player-name{
       font-weight:900;
       font-size: 28px;
       margin: 0;
- }
- .player-bio{
+}
+
+.player-bio{
       font-size: 16px;
       color: #6C6C6C;
 
- }
+}
+ /* --End footbal players style-- */
 
   /* ---fixture style-- */
 .fixture-title{
@@ -105,8 +111,8 @@ body{
      display: flex;
      justify-content: center;
    
- }
- .matchs {
+}
+.matchs {
      display: grid;
      grid-template-columns: repeat(2,1fr);
      grid-column-gap: 30px;
@@ -142,11 +148,11 @@ body{
 .match:hover{
      transform:scale(1.1);
 }
-
+/* --End fixture style-- */
 
  /* ---standing-table style-- */
     
- .standing-table{
+.standing-table{
      box-shadow: 2px 2px 2px 2px  gray;
      margin: 100px 200px 40px 260px;
      padding-bottom: 20px;
@@ -161,59 +167,63 @@ body{
      font-size:46px;
 }
  
- .standing-table table{
+.standing-table table{
      margin: 30px auto;
 	border-collapse: collapse;
    
-    }
+}
 
-   table th, td {
-     padding: 10px 40px;
- }
- .team-details:hover{
+.team-details:hover{
 	background-color: #81e046;
 }
+
+table th, td {
+     padding: 10px 40px;
+}
+
+/* --End Satnding table style-- */
+
 
 
 
  /* --footer style-- */
 
- .footer-container{
+.footer-container{
      display:flex;
      flex-direction: column; 
      justify-content: center;
      align-items: center;
      padding: 158px 0px 0px 0px;
    
- }
+}
 
- .footer-icon{
+.footer-icon{
       padding: 20px  156px 5px 206px ;  
       width: 180px;
       font-size: 16px;
       
- }
+}
 
- .footer-icon i{
+.footer-icon i{
      background-color: rgb(209, 206, 206);
      border-radius: 25px;
      padding:5px;
      margin-right: 14px;
- }
+}
  
- .footer-copyright{
+.footer-copyright{
      font-size: 18px;
      font-style: normal;
      font-weight: normal;
      margin-left: 25px;
      margin-top: 0px;  
      font-size: 16px;
- }
+}
 
 
 
  /* ---media query style-- */
- @media only screen and (max-width:689px) {
+@media only screen and (max-width:689px) {
      main{
           width:115%;
      }
@@ -221,35 +231,35 @@ body{
            display: flex;
            flex-direction:column;
       
-      }
+     }
 
-      .half-width-top{
+     .half-width-top{
           width:70%;
      }
 
-      .section-title{
+     .section-title{
            padding: 112px 66px 154px 16px;
-      }
-      .section-title h1{
+     }
+     .section-title h1{
            font-size:36px;
            font-weight: 900;
-      }
+     }
      
      
-      .top-banner img{
+     .top-banner img{
           
            width: 110%; 
            margin-left: 16px;
            padding-right: 0px;
            padding-top: 0px;
            
-      }
-      .football-players{
+     }
+     .football-players{
           grid-template-columns: repeat(1,1fr);
           padding: 47px 15px 24px 15px;
 
-      }
-      .player{
+     }
+     .player{
           flex-direction: column;
             width: 340px;
             margin-left: 20px;
@@ -275,9 +285,7 @@ body{
           margin: 15px;
      }
      
-      table th, td {
-       padding: 10px 40px;
-      }
+   
      .footer-container{
           padding-top: 54px;
           padding-right: 30px;
