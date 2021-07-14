@@ -256,13 +256,13 @@ table th, td {
      }
      .football-players{
           grid-template-columns: repeat(1,1fr);
-          padding: 47px 15px 24px 15px;
+          padding: 47px 15px 24px 20px;
 
      }
      .player{
           flex-direction: column;
             width: 340px;
-            margin-left: 20px;
+            margin-left: 50px;
      }
 
      .matchs{
